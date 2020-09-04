@@ -10,9 +10,10 @@ const Wrapper = styled.div`
     align-items: center;
     width: 100vw;
     height: 100vh;
+    background: #222222;
 
     @media screen and (max-width: 320px) {
-        margin: 30px 0;
+        padding: 30px 0;
     }
 `
 
@@ -33,10 +34,10 @@ const InspectionImg = styled.img`
 `
 
 const Title = styled.div`
-    font-weight: 500;
+    font-weight: 400;
     font-size: 18px;
     line-height: 145%;
-    color: #111111;
+    color: #ffffff;
     margin: 10px;
 
     @media screen and (max-width: 320px) {
@@ -52,8 +53,7 @@ const DetailBox = styled.div`
     margin: 10px;
     width: 500px;
     height: 169px;
-    background: #f8f8ff;
-    border: 1px solid #c2c5fe;
+    background: rgba(255, 255, 255, 0.1);
     box-sizing: border-box;
     border-radius: 10px;
 
@@ -70,7 +70,7 @@ const DetailBox = styled.div`
 const Body = styled.div`
     font-size: 14px;
     line-height: 145%;
-    color: #111111;
+    color: #ffffff;
     width: 450px;
     margin: 10px;
 
@@ -86,7 +86,7 @@ const Body = styled.div`
 `
 
 const BodyHighlight = styled.span`
-    font-weight: 500;
+    font-weight: 400;
     text-decoration: underline;
 `
 
@@ -149,7 +149,7 @@ const DetailContentTitle = styled.div`
     font-weight: 500;
     font-size: 16px;
     line-height: 145%;
-    color: #4455b3;
+    color: #ffffff;
 
     @media screen and (max-width: 500px) {
         font-size: 14px;
@@ -161,10 +161,10 @@ const DetailContentTitle = styled.div`
 `
 
 const DetailContentBody = styled.div`
-    font-weight: 500;
+    font-weight: 400;
     font-size: 16px;
     margin-left: 20px;
-    color: #111111;
+    color: #ffffff;
 
     @media screen and (max-width: 500px) {
         margin-left: 10px;
