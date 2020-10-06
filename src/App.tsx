@@ -108,20 +108,17 @@ const App = () => {
             <DetailBox>
                 <DetailContent
                     title='점검 기간'
-                    body='2020년 9월 8일 (오전) 2시 - 8시'
+                    body='2020년 10월 6일 11시 - 13시 (2시간)'
                 />
-                <DetailContent
-                    title='점검 내용'
-                    body='이용자 수 증가로 인한 서버 증설 작업'
-                />
+                <DetailContent title='점검 내용' body='서비스 개선' />
                 <DetailContent
                     title='점검 영향'
                     body='서비스 이용의 일시적 제한'
                 />
             </DetailBox>
             <Body>
-                이용자 수 증가로 인하여 보다 안정적인 서비스를 제공하기 위해
-                진행되는 작업입니다.{' '}
+                서비스 개선 및 안정적인 서비스를 제공하기 위해 진행되는
+                작업입니다.
                 <BodyHighlight>
                     서비스 점검은 내부 사정에 따라 연장되거나 조기 오픈 될 수
                     있습니다.
