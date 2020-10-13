@@ -103,12 +103,12 @@ const App = () => {
     return (
         <Wrapper>
             <Img src={Logo} alt='pixelsc' />
-            <Title>서버 증설 작업으로 인한 서비스 점검 안내</Title>
+            <Title>서비스 임시 점검 안내</Title>
             <InspectionImg src={Inspection} alt='Inspection image' />
             <DetailBox>
                 <DetailContent
                     title='점검 기간'
-                    body='2020년 10월 6일 11시 - 13시 (2시간)'
+                    body='2020년 10월 13일 17시 - 19시 (2시간)'
                 />
                 <DetailContent title='점검 내용' body='서비스 개선' />
                 <DetailContent
