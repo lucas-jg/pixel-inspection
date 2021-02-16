@@ -35,7 +35,7 @@ const InspectionImg = styled.img`
 
 const Title = styled.div`
     font-weight: 400;
-    font-size: 18px;
+    font-size: 20px;
     line-height: 145%;
     color: #ffffff;
     margin: 10px;
@@ -103,12 +103,12 @@ const App = () => {
     return (
         <Wrapper>
             <Img src={Logo} alt='pixelsc' />
-            <Title>서비스 임시 점검 안내</Title>
+            <Title>서비스 점검 안내</Title>
             <InspectionImg src={Inspection} alt='Inspection image' />
             <DetailBox>
                 <DetailContent
                     title='점검 기간'
-                    body='2020년 10월 13일 17시 - 18시 (1시간)'
+                    body='2021년 2월 17일 06시 - 11시 (5시간)'
                 />
                 <DetailContent title='점검 내용' body='서비스 개선' />
                 <DetailContent
@@ -118,13 +118,13 @@ const App = () => {
             </DetailBox>
             <Body>
                 서비스 개선 및 안정적인 서비스를 제공하기 위해 진행되는
-                작업입니다.
+                작업입니다.{'  '}
                 <BodyHighlight>
                     서비스 점검은 내부 사정에 따라 연장되거나 조기 오픈 될 수
                     있습니다.
                 </BodyHighlight>
             </Body>
-            <QuestionLink href='https://pixel-sc.channel.io/' target='_blank'>
+            <QuestionLink href='https://pixelsc.channel.io/' target='_blank'>
                 PIXEL sc에 문의할 게 있으신가요?
             </QuestionLink>
         </Wrapper>
