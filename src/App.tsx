@@ -108,7 +108,7 @@ const App = () => {
             <DetailBox>
                 <DetailContent
                     title='점검 기간'
-                    body='2021년 2월 17일 06시 - 11시 (5시간)'
+                    body='2021년 4월 21일 07시 - 11시 (4시간)'
                 />
                 <DetailContent title='점검 내용' body='서비스 개선' />
                 <DetailContent
